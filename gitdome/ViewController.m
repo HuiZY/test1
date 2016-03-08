@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "TestClass.h"
 @interface ViewController ()
 @property(nonatomic)int sum;
+@property(nonatomic,strong )TestClass *testClass;
 @end
 
 @implementation ViewController
