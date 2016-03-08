@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic)int sum;
 @end
 
 @implementation ViewController
@@ -22,6 +22,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    int  a= 5;
+    int b =10;
+    self.sum = a +b ;
+    NSLog(@"the result is %d",self.sum);
+    
 }
 
 @end
