@@ -12,17 +12,23 @@
 @property(nonatomic)int sum;
 @property(nonatomic,strong )TestClass *testClass;
 -(void)sayHello;
+-(void)teacher;
 @end
 
 @implementation ViewController
 -(void)sayHello{
     NSLog(@"hello");
 }
+-(void)teacher{
+    
+    NSLog(@"teacher is a mean");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self sayHello];
+    [self teacher];
 }
 
 - (void)didReceiveMemoryWarning {
