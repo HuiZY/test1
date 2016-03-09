@@ -13,6 +13,7 @@
 @property(nonatomic,strong )TestClass *testClass;
 -(void)sayHello;
 -(void)teacher;
+-(void)student;
 @end
 
 @implementation ViewController
@@ -23,7 +24,10 @@
     
     NSLog(@"teacher is a mean");
 }
-
+-(void)student{
+    NSLog(@"student is a women");
+}
+    
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
